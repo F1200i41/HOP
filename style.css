@@ -1,0 +1,76 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #c9e1de, #007bff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Styling */
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+/* Main Section with Background */
+.main-section {
+    position: center;
+    height: 100vh;
+    background: url('pexels-pixabay-40568.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-section:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pexels-pixabay-40568.jpg') no-repeat center center/cover;
+}
+
+/* Overlay Content */
+.overlay {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.overlay h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.5em;
+}
+
+/* Sections Container */
+.sections-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px, rgba(0, 0, 0, 0.06) 0px 1px 3px;
+}
+
+/* Section styles */
+.sections-container section {
+    margin-bottom: 40px;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 10px;
+    }
+
+    #logo {
+        height: 40px;
+    }
+}
